@@ -1,11 +1,6 @@
-### Hi there 👋
+### Hi there, I'm Edwin González, although I'm A.K.A Tux 👋:penguin:
 
-<!--
-**edgonzalez24/edgonzalez24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
+## Currently
 - 🔭 I’m currently working on ReactJS + VueJS
 - 🌱 I’m currently learning Nodejs + MongoDB
-- 👯 I’m looking to collaborate on any project
--->
+- 👯 I’m looking to collaborate on any project like FrontEnd
