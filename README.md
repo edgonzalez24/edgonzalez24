@@ -1,25 +1,21 @@
 
 ### Hi there, I'm Edwin González, although I'm A.K.A Tux 👋 :penguin:
 <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
-<a href="https://discord.gg/XTW52Kt">
-  <img align="left" alt="Abhishek's Discord" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/discord.svg" />
-</a>
 <a href="https://twitter.com/_tuxgonzalez">
-  <img align="left" alt="tuxGonzalez | Twitter" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/twitter.svg" />
+  <img align="left" alt="tuxGonzalez | Twitter" width="24px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/twitter.svg" />
 </a>
 <a href="https://www.linkedin.com/in/edwin-ernesto-gonz%C3%A1lez-castillo-54162618a/">
-  <img align="left" alt="Abhishek's LinkedIN" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
+  <img align="left" alt="LinkedIN" width="24px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
 </a>
 <a href="https://open.spotify.com/user/nf6gym3utu3p2rzdu4suvbw8s">
-  <img align="left" alt="Abhishek's Spotify" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/spotify.svg" />
+  <img align="left" alt="Spotify" width="24px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/spotify.svg" />
 </a>
 
+<br /><br />
 
-<br />
+I'm an Front End Dev. who likes to be self-taught, I like new challenges.  :rocket:
 
-I'm an Front End Developer, Freelancer and i like to do a bit of backend though. I like to be self-taught, I like new challenges. :rocket:
-
-  <img align="right" alt="GIF" src="https://github.com/edgonzalez24/edgonzalez24/blob/main/hardcoding.gif?raw=true" width="500" height="320" />
+  <img align="right" alt="GIF" src="" width="500" height="320" />
   
 **Talking about Personal Stuffs:**
 
