@@ -14,13 +14,12 @@
   <img align="left" alt="Abhishek's Spotify" width="22px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/spotify.svg" />
 </a>
 
-![](https://visitor-badge.glitch.me/badge?page_id=abhisheknaiidu.abhisheknaiidu)
 
 <br />
 
-I'm an Front End Dev. who likes to be self-taught, I like new challenges.  :rocket:
+I'm an Front End Developer, Freelancer and i like to do a bit of backend though. I like to be self-taught, I like new challenges. :rocket:
 
-  <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/blob/master/code.gif?raw=true" width="500" height="320" />
+  <img align="right" alt="GIF" src="https://github.com/edgonzalez24/edgonzalez24/blob/main/hardcoding.gif?raw=true" width="500" height="320" />
   
 **Talking about Personal Stuffs:**
 
