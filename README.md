@@ -15,7 +15,7 @@
 
 I'm an Front End Dev. who likes to be self-taught, I like new challenges.  :rocket:
 
-  <img align="right" alt="GIF" src="" width="500" height="320" />
+  <img align="right" alt="GIF" src="https://github.com/edgonzalez24/edgonzalez24/blob/main/hardcoding.gif?raw=true" width="500" height="320" />
   
 **Talking about Personal Stuffs:**
 
