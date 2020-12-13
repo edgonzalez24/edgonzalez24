@@ -17,14 +17,14 @@ I'm an Front End Dev. who likes to be self-taught, I like new challenges.  :rock
 
   <img align="right" alt="GIF" src="https://github.com/edgonzalez24/edgonzalez24/blob/main/hardcoding.gif?raw=true" width="500" height="320" />
   
-**Talking about Personal Stuffs:**
+**Talking about Personal Stuffs:** :fire:
 
-- 👨🏽‍💻 I’m currently working on something cool :wink:;
+- 👨🏽‍💻 I’m currently working at [@elaniin](https://github.com/elaniin); :wink:;
 - 🌱 I’m currently learning SailsJS/NodeJS; 
 - 💬 Ask me about anything, I am happy to help;
 - 📫 How to reach me: [@_tuxgonzalez](https://twitter.com/_tuxgonzalez);
 
-**Languages and Tools:**  
+**Languages and Tools:**  :hammer:
 
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
 <code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"></code>
