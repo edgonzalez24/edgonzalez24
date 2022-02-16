@@ -19,7 +19,7 @@ I'm an Front End Developer, also sometimes i do a bit of Back End. I'm self-taug
   
 **Talking about Personal Stuffs:** :fire:
 
-- 👨🏽‍💻 I’m currently working at [@fitu_technologies](https://www.fituapp.com/); :wink:;
+- 👨🏽‍💻 I’m currently working at [@fitunue](https://www.fitune.io/); :wink:;
 - 🌱 I’m currently learning SSR/NuxtJS; 
 - 💬 Ask me about anything, I am happy to help;
 - 📫 How to reach me: [@_tuxgonzalez](https://twitter.com/_tuxgonzalez);
