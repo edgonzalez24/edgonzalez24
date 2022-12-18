@@ -4,7 +4,7 @@
 <a href="https://twitter.com/_tuxgonzalez">
   <img align="left" alt="tuxGonzalez | Twitter" width="24px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/twitter.svg" />
 </a>
-<a href="https://www.linkedin.com/in/edwin-ernesto-gonz%C3%A1lez-castillo-54162618a/">
+<a href="https://www.linkedin.com/in/edwin-gonz%C3%A1lez-54162618a/">
   <img align="left" alt="LinkedIn" width="24px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
 </a>
 
