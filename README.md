@@ -1,21 +1,28 @@
 
-### Hi there, I'm Edwin González, although I'm A.K.A Tux 👋 :penguin:
-<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
-<a href="https://twitter.com/_tuxgonzalez">
-  <img align="left" alt="tuxGonzalez | Twitter" width="24px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/twitter.svg" />
-</a>
-<a href="https://www.linkedin.com/in/edwin-gonz%C3%A1lez-54162618a/">
-  <img align="left" alt="LinkedIn" width="24px" src="https://raw.githubusercontent.com/peterthehan/peterthehan/master/assets/linkedin.svg" />
-</a>
+# Hi, I'm Edwin! 👋
 
-<br /><br />
 
-I'm an Front End Developer, also sometimes i do a bit of Back End. I'm self-taught person,I like new challenges.  :rocket:
+## 🚀 About Me
+I'm a visionary and self-taught frontend developer from El Salvador eager to learn more every day about technologies that seek to strengthen and improve the user experience. Every day is a new challenge to learn new things.
 
-  <img align="right" alt="GIF" src="https://github.com/edgonzalez24/edgonzalez24/blob/main/hardcoding.gif?raw=true" width="500" height="320" />
   
 **Talking about Personal Stuffs:** :fire:
 
-- 🌱 I’m currently learning Typescript and Ruby on Rails;
+- 🌱 I’m currently learning Typescript, design patterns and infrastructure frontend;
 - 💬 Ask me about anything, I am happy to help;
 - 📫 How to reach me: [@_tuxgonzalez](https://twitter.com/_tuxgonzalez);
+
+
+<h3>Where to find me</h3>
+<p>
+  <a href="https://twitter.com/_tuxgonzalez" target="_blank">
+    <img alt="Twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/edwin-gonz%C3%A1lez-54162618a/" target="_blank">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a> 
+  <a href="https://medium.com/@tuxdev" target="_blank">
+    <img alt="Medium" src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />
+  </a>
+</p>
+
