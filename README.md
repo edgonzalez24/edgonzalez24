@@ -1,28 +1,40 @@
+[![Header](./assets/readme-header.gif "Header")](https://edwiin-dev.netlify.app/)
 
-# Hi, I'm Edwin! 👋
+
+# Hi there! 👋
 
 
 ## 🚀 About Me
-I'm a visionary and self-taught frontend developer from El Salvador eager to learn more every day about technologies that seek to strengthen and improve the user experience. Every day is a new challenge to learn new things.
+I’m a Frontend software engineer, passionate about building user-friendly, scalable, and performant applications. I enjoy working with modern frameworks and continuously improving my craft.
 
   
 **Talking about Personal Stuffs:** :fire:
 
-- 🌱 I’m currently learning Typescript, design patterns and infrastructure frontend;
-- 💬 Ask me about anything, I am happy to help;
-- 📫 How to reach me: [@_tuxgonzalez](https://twitter.com/_tuxgonzalez);
+- 🌱 Currently diving deeper into TypeScript, design patterns, and frontend infrastructure.
+- 💻 Experienced with Vue.js, React, and modern frontend ecosystems.
+- 🛠️ Strong focus on code quality, performance optimization, and clean architecture.
+- 💬 Always happy to collaborate, share knowledge, and help solve problems.
+- 🎯 My goal is to become a <b>Frontend Specialist</b> with deep knowledge in architecture, scalability, and developer experience.
+- 🧑‍💻 Tech I work on :
 
 
-<h3>Where to find me</h3>
-<p>
-  <a href="https://twitter.com/_tuxgonzalez" target="_blank">
-    <img alt="Twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/edwin-gonz%C3%A1lez-54162618a/" target="_blank">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a> 
-  <a href="https://medium.com/@tuxdev" target="_blank">
-    <img alt="Medium" src="https://img.shields.io/badge/medium-%2312100E.svg?&style=for-the-badge&logo=medium&logoColor=white" />
-  </a>
+<p align="center">
+      <img src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg" alt="javascript" width="55" height="55"/>
+      <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" alt="typescript" width="55" height="55"/>
+      <img src="https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg" alt="vue" width="65" height="65"/> 
+       <img src="https://www.vectorlogo.zone/logos/nuxtjs/nuxtjs-icon.svg" alt="Nuxt" width="55" height="55"/>
+      <img src="https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg" alt="Supabase" width="55" height="55"/>
+      <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="Postgresql" width="55" height="55"/>
+      <img src="./assets/prisma.svg" alt="Prisma" width="55" height="55"/>
+      <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="GIT" width="55" height="55"/>
+      <img src="https://www.vectorlogo.zone/logos/docker/docker-official.svg" alt="docker" width="60" height="50"/>
 </p>
 
+
+
+
+<h2 align="left">📫 Let's get connected:</h2>
+
+[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/edwin-gonz%C3%A1lez-54162618a/)](https://www.linkedin.com/in/edwin-gonz%C3%A1lez-54162618a/)
+[![X Badge](https://img.shields.io/badge/-@_tuxgonzalez-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/_tuxgonzalez)](https://twitter.com/_tuxgonzalez)
+[![Medium Badge](https://img.shields.io/badge/-@tuxdev-000?style=flat-square&labelColor=000&logo=medium&logoColor=white&link=https://medium.com/@tuxdev)](https://medium.com/@tuxdev)
