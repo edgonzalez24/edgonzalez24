@@ -1,0 +1,80 @@
+{
+  "profile": {
+    "out": "profile.png",
+    "file": "profile.ts",
+    "sidebar": ["profile.ts", "projects", "articles"],
+    "status": ["main", "TypeScript", "UTF-8"],
+    "code": [
+      "export const edwin = {",
+      "  name: \"Edwin Gonzalez\",",
+      "  role: \"Frontend Software Engineer\",",
+      "  stack: [\"JavaScript\", \"TypeScript\", \"Vue\", \"React\", \"Nuxt\"],",
+      "  data: [\"Supabase\", \"PostgreSQL\", \"Prisma\"],",
+      "  tools: [\"Docker\", \"Git\"],",
+      "  currently: \"design patterns, frontend infrastructure\",",
+      "  goal: \"Frontend Specialist\",",
+      "  // always happy to collaborate",
+      "};"
+    ]
+  },
+  "projects": [
+    {
+      "out": "project-tokadasv.png",
+      "file": "tokadasv.ts",
+      "thumb": "tokadasv.jpg",
+      "lang": "TypeScript",
+      "cta": "Open ↗",
+      "code": [
+        "export default {",
+        "  name: \"TokadaSV\",",
+        "  about: \"Platform for Salvadoran artists\",",
+        "  stack: [\"Nuxt 4\", \"GraphQL\", \"PostgreSQL\"],",
+        "};"
+      ]
+    },
+    {
+      "out": "project-website-builder.png",
+      "file": "website-builder.ts",
+      "thumb": "website-builder.jpg",
+      "lang": "TypeScript",
+      "cta": "Open ↗",
+      "code": [
+        "export default {",
+        "  name: \"Website Builder\",",
+        "  about: \"Fullstack website builder\",",
+        "  stack: [\"Nuxt 4\", \"GrapesJS\", \"Supabase\"],",
+        "};"
+      ]
+    }
+  ],
+  "posts": [
+    {
+      "out": "post-less-tokens-more-precision.png",
+      "file": "less-tokens-more-precision.md",
+      "thumb": "post-less-tokens.jpg",
+      "lang": "Markdown",
+      "cta": "Read ↗",
+      "code": [
+        "---",
+        "title: \"Less tokens, more precision\"",
+        "date: 2026-06-24",
+        "tags: [AI, developer tools]",
+        "---"
+      ]
+    },
+    {
+      "out": "post-single-source-of-truth-for-ai.png",
+      "file": "unifying-ai-context-engineering-team.md",
+      "thumb": "post-ai-context.jpg",
+      "lang": "Markdown",
+      "cta": "Read ↗",
+      "code": [
+        "---",
+        "title: \"A single source of truth for AI\"",
+        "date: 2026-06-19",
+        "tags: [AI-engineering, AI-tools]",
+        "---"
+      ]
+    }
+  ]
+}

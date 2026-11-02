@@ -1,40 +1,17 @@
-[![Header](./assets/readme-header.gif "Header")](https://edwiin-dev.netlify.app/)
+[![Edwin Gonzalez, Frontend Software Engineer](./assets/readme-header.gif "Edwin Gonzalez")](https://edgonzalez-me.vercel.app/)
 
+<img src="./assets/cards/profile.png" width="100%" alt="profile.ts: Edwin Gonzalez, Frontend Software Engineer. Stack: JavaScript, TypeScript, Vue, React, Nuxt. Data: Supabase, PostgreSQL, Prisma. Tools: Docker, Git. Currently focused on design patterns and frontend infrastructure. Goal: Frontend Specialist.">
 
-# Hi there! 👋
+[Portfolio](https://edgonzalez-me.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/edwin-gonz%C3%A1lez-54162618a/) · [X](https://twitter.com/_tuxgonzalez) · [Medium](https://medium.com/@tuxdev)
 
+## Projects
 
-## 🚀 About Me
-I’m a Frontend software engineer, passionate about building user-friendly, scalable, and performant applications. I enjoy working with modern frameworks and continuously improving my craft.
+<a href="https://edgonzalez-me.vercel.app/projects"><img src="./assets/cards/project-tokadasv.png" width="49%" alt="TokadaSV: platform for Salvadoran artists and bands, with a public page and show dashboard per artist, built with Nuxt 4, GraphQL and PostgreSQL."></a> <a href="https://edgonzalez-me.vercel.app/projects"><img src="./assets/cards/project-website-builder.png" width="49%" alt="Website Builder: fullstack website builder with Nuxt 4, GrapesJS and Supabase."></a>
 
-  
-**Talking about Personal Stuffs:** :fire:
+[All projects →](https://edgonzalez-me.vercel.app/projects)
 
-- 🌱 Currently diving deeper into TypeScript, design patterns, and frontend infrastructure.
-- 💻 Experienced with Vue.js, React, and modern frontend ecosystems.
-- 🛠️ Strong focus on code quality, performance optimization, and clean architecture.
-- 💬 Always happy to collaborate, share knowledge, and help solve problems.
-- 🎯 My goal is to become a <b>Frontend Specialist</b> with deep knowledge in architecture, scalability, and developer experience.
-- 🧑‍💻 Tech I work on :
+## Latest posts
 
+<a href="https://edgonzalez-me.vercel.app/articles/less-tokens-more-precision"><img src="./assets/cards/post-less-tokens-more-precision.png" width="49%" alt="Less tokens, more precision: tools to reduce hallucinations in AI. June 24, 2026."></a> <a href="https://edgonzalez-me.vercel.app/articles/unifying-ai-context-engineering-team"><img src="./assets/cards/post-single-source-of-truth-for-ai.png" width="49%" alt="A single source of truth for AI: how to unify context across multiple tools. June 19, 2026."></a>
 
-<p align="center">
-      <img src="https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg" alt="javascript" width="55" height="55"/>
-      <img src="https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg" alt="typescript" width="55" height="55"/>
-      <img src="https://www.vectorlogo.zone/logos/vuejs/vuejs-icon.svg" alt="vue" width="65" height="65"/> 
-       <img src="https://www.vectorlogo.zone/logos/nuxtjs/nuxtjs-icon.svg" alt="Nuxt" width="55" height="55"/>
-      <img src="https://www.vectorlogo.zone/logos/supabase/supabase-icon.svg" alt="Supabase" width="55" height="55"/>
-      <img src="https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg" alt="Postgresql" width="55" height="55"/>
-      <img src="./assets/prisma.svg" alt="Prisma" width="55" height="55"/>
-      <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="GIT" width="55" height="55"/>
-      <img src="https://www.vectorlogo.zone/logos/docker/docker-official.svg" alt="docker" width="60" height="50"/>
-</p>
-
-
-
-
-<h2 align="left">📫 Let's get connected:</h2>
-
-[![Linkedin Badge](https://img.shields.io/badge/-Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/edwin-gonz%C3%A1lez-54162618a/)](https://www.linkedin.com/in/edwin-gonz%C3%A1lez-54162618a/)
-[![X Badge](https://img.shields.io/badge/-@_tuxgonzalez-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/_tuxgonzalez)](https://twitter.com/_tuxgonzalez)
-[![Medium Badge](https://img.shields.io/badge/-@tuxdev-000?style=flat-square&labelColor=000&logo=medium&logoColor=white&link=https://medium.com/@tuxdev)](https://medium.com/@tuxdev)
+[All posts →](https://edgonzalez-me.vercel.app/articles)
