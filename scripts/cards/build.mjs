@@ -6,6 +6,7 @@
 // Needs Node 22+ and Chromium or Chrome (set CHROME to point at a binary).
 // The text is set in JetBrains Mono, so install it for the same result.
 // Card content lives in data.json, thumbnails in thumbs/.
+// The github.ts card reads github.json; refresh it with fetch-github.mjs.
 
 import { readFileSync, writeFileSync, mkdtempSync, rmSync, mkdirSync } from "node:fs";
 import { execFileSync } from "node:child_process";
@@ -32,7 +33,7 @@ const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, 
 // Minimal highlighter: comments, strings, dates and a few keywords.
 function highlight(line) {
   return esc(line).replace(
-    /(\/\/.*$)|("[^"]*")|(\b\d{4}-\d{2}-\d{2}\b)|\b(export|default|const)\b/g,
+    /(\/\/.*$)|("[^"]*")|(\b\d{4}-\d{2}-\d{2}\b|\b\d+\b)|\b(export|default|const)\b/g,
     (m, c, s, d, k) =>
       c ? `<span class="c">${c}</span>`
       : s ? `<span class="s">${s}</span>`
@@ -64,6 +65,9 @@ const css = `
   .side .on { background: #12201b; color: var(--txt); }
   .crumb { padding: 10px 20px 0; color: var(--dim); font-size: 12px; }
   .editor { display: grid; grid-template-columns: auto 1fr; gap: 0 20px; padding: 10px 20px; font-size: 13px; line-height: 24px; }
+  .pane { position: relative; }
+  .badges { position: absolute; right: 28px; top: 50%; transform: translateY(-50%); display: flex; gap: 14px; }
+  .badges img { display: block; width: 76px; height: 76px; }
   .nums { color: var(--line); text-align: right; white-space: pre; }
   .src { white-space: pre; }
   .caret { display: inline-block; width: 8px; height: 16px; background: var(--kw); vertical-align: text-bottom; }
@@ -72,24 +76,52 @@ const css = `
 const wrap = (width, height, inner) =>
   `<!doctype html><meta charset="utf-8"><style>${css}.ed{width:${width}px;height:${height}px}</style>${inner}`;
 
-function profileHtml(p) {
+// A full-width editor window: file tree on the left, numbered code on the right.
+// `active` is the index of the open file in the tree, `right` the status-bar text.
+function editorHtml(p, height) {
   const nums = p.code.map((_, i) => i + 1).join("\n");
   const code = p.code.map(highlight).join("\n");
   const side = p.sidebar
-    .map((f, i) => `<div class="${i === 0 ? "on" : ""}">${esc(f)}</div>`)
+    .map((f, i) => `<div class="${i === (p.active ?? 0) ? "on" : ""}">${esc(f)}</div>`)
     .join("");
-  return wrap(830, 352, `
+  const badges = p.badges?.length
+    ? `<div class="badges">${p.badges
+        .map((b) => `<img src="${pathToFileURL(join(here, "..", "..", "assets", "achievements", b.file)).href}" alt="${esc(b.name)}">`)
+        .join("")}</div>`
+    : "";
+  return wrap(830, height, `
     <div class="ed">
       <div class="tabs"><span class="tab on">${esc(p.file)}</span></div>
       <div class="main">
         <div class="side"><div class="dir">edgonzalez24</div>${side}</div>
-        <div>
+        <div class="pane">
           <div class="crumb">edgonzalez24 › ${esc(p.file)}</div>
           <div class="editor"><div class="nums">${nums}</div><div class="src">${code}<span class="caret"></span></div></div>
+          ${badges}
         </div>
       </div>
-      <div class="status"><div>${p.status.map((s) => `<span>${esc(s)}</span>`).join("")}</div><span>Ln ${p.code.length}, Col 3</span></div>
+      <div class="status"><div>${p.status.map((s) => `<span>${esc(s)}</span>`).join("")}</div><span>${esc(p.right ?? `Ln ${p.code.length}, Col 3`)}</span></div>
     </div>`);
+}
+
+function githubCard(meta, g, sidebar) {
+  return {
+    file: meta.file,
+    sidebar,
+    active: sidebar.indexOf(meta.file),
+    status: ["main", "TypeScript", "UTF-8"],
+    right: `Updated ${g.updated}`,
+    badges: g.achievements,
+    code: [
+      "export const github = {",
+      `  since: ${g.since},`,
+      `  repos: ${g.repos},`,
+      `  stars: ${g.stars},`,
+      `  followers: ${g.followers},`,
+      `  contributions: ${g.contributions}, // last 12 months`,
+      "};",
+    ],
+  };
 }
 
 function cardHtml(c) {
@@ -120,8 +152,11 @@ function render(html, width, height, out) {
 }
 
 try {
-  render(profileHtml(data.profile), 830, 352, data.profile.out);
+  render(editorHtml(data.profile, 352), 830, 352, data.profile.out);
   for (const c of [...data.projects, ...data.posts]) render(cardHtml(c), 410, 440, c.out);
+  const g = JSON.parse(readFileSync(join(here, "github.json"), "utf8"));
+  const gh = githubCard(data.github, g, data.profile.sidebar);
+  render(editorHtml(gh, 288), 830, 288, data.github.out);
 } finally {
   rmSync(tmp, { recursive: true, force: true });
 }

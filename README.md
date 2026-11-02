@@ -15,3 +15,9 @@
 <a href="https://edgonzalez-me.vercel.app/articles/less-tokens-more-precision"><img src="./assets/cards/post-less-tokens-more-precision.png" width="49%" alt="Less tokens, more precision: tools to reduce hallucinations in AI. June 24, 2026."></a> <a href="https://edgonzalez-me.vercel.app/articles/unifying-ai-context-engineering-team"><img src="./assets/cards/post-single-source-of-truth-for-ai.png" width="49%" alt="A single source of truth for AI: how to unify context across multiple tools. June 19, 2026."></a>
 
 [All posts →](https://edgonzalez-me.vercel.app/articles)
+
+## GitHub
+
+<img src="./assets/cards/github.png" width="100%" alt="github.ts: GitHub activity with the number of public repositories, stars, followers and contributions in the last 12 months, and the GitHub achievements YOLO, Pull Shark and Arctic Code Vault Contributor.">
+
+[github.com/edgonzalez24 →](https://github.com/edgonzalez24)

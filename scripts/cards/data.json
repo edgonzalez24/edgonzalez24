@@ -2,7 +2,7 @@
   "profile": {
     "out": "profile.png",
     "file": "profile.ts",
-    "sidebar": ["profile.ts", "projects", "articles"],
+    "sidebar": ["profile.ts", "github.ts", "projects", "articles"],
     "status": ["main", "TypeScript", "UTF-8"],
     "code": [
       "export const edwin = {",
@@ -16,6 +16,10 @@
       "  // always happy to collaborate",
       "};"
     ]
+  },
+  "github": {
+    "out": "github.png",
+    "file": "github.ts"
   },
   "projects": [
     {
